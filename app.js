@@ -547,7 +547,7 @@ function main() {
 //  OVERALL AVERAGE GRADE//
     
     console.log(
-        "OVERALL AVERAGE GRADE"
+        "\n OVERALL AVERAGE GRADE"
     );
 
     console.log(
@@ -563,7 +563,7 @@ function main() {
 
     // TOP STUDENTS//
 
-    console.log("TOP STUDENTS");
+    console.log("\n TOP STUDENTS");
     console.log("----------------");
 
     const topStudents =
@@ -581,7 +581,7 @@ function main() {
     // AVERAGE GRADE BY COURSE//
 
     console.log(
-        "AVERAGE GRADE BY COURSE"
+        "\n AVERAGE GRADE BY COURSE"
     );
 
     console.log(
@@ -601,7 +601,7 @@ function main() {
     // STUDENTS GROUPED BY COURSE//
 
     console.log(
-        "STUDENTS GROUPED BY COURSE"
+        "\n STUDENTS GROUPED BY COURSE"
     );
 
     console.log(
@@ -630,7 +630,7 @@ function main() {
     // ENROLLMENT COUNT//
 
     console.log(
-        "ENROLLMENT COUNT"
+        "\n ENROLLMENT COUNT"
     );
 
     console.log(
@@ -653,7 +653,7 @@ function main() {
     // STUDENT SEARCH//
 
     console.log(
-        "STUDENT SEARCH"
+        "\n STUDENT SEARCH"
     );
 
     console.log(
@@ -695,7 +695,7 @@ function main() {
     //COMPLETE SUMMARY//
     
     console.log(
-        "COMPLETE SUMMARY"
+        "\n COMPLETE SUMMARY"
     );
 
     console.log(
