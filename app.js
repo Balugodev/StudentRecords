@@ -241,8 +241,6 @@ const students = [
     }
 ];
 
-//Get Average//
-
 function getAverageGrade(student) {
 
     if (
@@ -258,8 +256,6 @@ function getAverageGrade(student) {
         0
     ) / student.grades.length;
 }
-
-//Get Top Students//
 
 function getTopStudents(students, n) {
 
@@ -284,8 +280,6 @@ function getTopStudents(students, n) {
         .sort((a, b) => b.average - a.average)
         .slice(0, n);
 }
-
-//Group by Course//
 
 function groupByCourse(students) {
 
@@ -313,8 +307,6 @@ function groupByCourse(students) {
     );
 }
 
-//Get enrolled count//
-
 function getEnrolledCount(students) {
 
     if (!Array.isArray(students)) {
@@ -334,8 +326,6 @@ function getEnrolledCount(students) {
         notEnrolled
     };
 }
-
-//find student//
 
 function findStudent(students, name) {
 
@@ -370,8 +360,6 @@ function findStudent(students, name) {
             : []
     };
 }
-
-//Get course average
 
 function getCourseAverages(students) {
 
@@ -418,8 +406,6 @@ function getCourseAverages(students) {
             (a, b) => b.average - a.average
         );
 }
-
-//Export Summary//
 
 function exportSummary(students) {
 
@@ -478,8 +464,6 @@ function exportSummary(students) {
     };
 }
 
-//Filter by year//
-
 function filterByYear(students, year) {
 
     if (!Array.isArray(students)) {
@@ -495,8 +479,6 @@ function filterByYear(students, year) {
                 : []
         }));
 }
-
-//Sort by name//
 
 function sortByName(students) {
 
@@ -516,8 +498,6 @@ function sortByName(students) {
         );
 }
 
-//Main function//
-
 function main() {
 
     console.log(
@@ -532,9 +512,6 @@ function main() {
         "=============================================="
     );
 
-
-    
-    //  TOTAL STUDENTS//
 
     console.log("\n TOTAL STUDENTS");
     console.log("------------------");
@@ -561,8 +538,6 @@ function main() {
         summary.overallAverage.toFixed(2)
     );
 
-    // TOP STUDENTS//
-
     console.log("\n TOP STUDENTS");
     console.log("----------------");
 
@@ -577,8 +552,6 @@ function main() {
             );
         }
     );
-
-    // AVERAGE GRADE BY COURSE//
 
     console.log(
         "\n AVERAGE GRADE BY COURSE"
@@ -597,8 +570,6 @@ function main() {
             `${item.course}: ${item.average.toFixed(2)}`
         );
     });
-
-    // STUDENTS GROUPED BY COURSE//
 
     console.log(
         "\n STUDENTS GROUPED BY COURSE"
@@ -627,8 +598,6 @@ function main() {
         }
     );
 
-    // ENROLLMENT COUNT//
-
     console.log(
         "\n ENROLLMENT COUNT"
     );
@@ -649,8 +618,6 @@ function main() {
         "Not Enrolled:",
         enrollment.notEnrolled
     );
-
-    // STUDENT SEARCH//
 
     console.log(
         "\n STUDENT SEARCH"
@@ -691,8 +658,6 @@ function main() {
             "Student not found."
         );
     }
-
-    //COMPLETE SUMMARY//
     
     console.log(
         "\n COMPLETE SUMMARY"
@@ -764,15 +729,12 @@ function main() {
         "First Student Alphabetically:",
         alphabeticalStudents[0].name
     );
-
-    // DIRECT TEST OF getAverageGrade()//
     
     console.log(
         "\nAverage Grade of First Student:",
         getAverageGrade(students[0]).toFixed(2)
     );
 
-  //End of report//
 
     console.log(
         "\n=============================================="
