@@ -536,7 +536,7 @@ function main() {
     
     //  TOTAL STUDENTS//
 
-    console.log("TOTAL STUDENTS");
+    console.log("\n TOTAL STUDENTS");
     console.log("------------------");
 
     console.log(
