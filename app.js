@@ -1,7 +1,7 @@
 const students = [
     {
         id: 1,
-        name: "Maria Santos",
+        name: "Reniel Demafelis",
         year: 1,
         course: "BSIT",
         grades: [85, 90, 88],
@@ -9,7 +9,7 @@ const students = [
     },
     {
         id: 2,
-        name: "Juan Dela Cruz",
+        name: "Khyla Albaracin",
         year: 2,
         course: "BEED",
         grades: [92, 89, 95],
@@ -17,7 +17,7 @@ const students = [
     },
     {
         id: 3,
-        name: "Angela Reyes",
+        name: "Jeffrey Coriento",
         year: 3,
         course: "BSIT",
         grades: [91, 94, 90],
@@ -25,7 +25,7 @@ const students = [
     },
     {
         id: 4,
-        name: "Carlos Garcia",
+        name: "Jaazeniah Mirano",
         year: 1,
         course: "BSAB",
         grades: [78, 82, 80],
@@ -33,7 +33,7 @@ const students = [
     },
     {
         id: 5,
-        name: "Sofia Mendoza",
+        name: "Christine Cordova",
         year: 4,
         course: "BEED",
         grades: [95, 97, 96],
@@ -41,7 +41,7 @@ const students = [
     },
     {
         id: 6,
-        name: "Daniel Cruz",
+        name: "Mario Nebres",
         year: 2,
         course: "BSIT",
         grades: [84, 86, 89],
@@ -49,7 +49,7 @@ const students = [
     },
     {
         id: 7,
-        name: "Patricia Flores",
+        name: "Betty Bargaso",
         year: 3,
         course: "BSAB",
         grades: [88, 85, 90],
@@ -57,7 +57,7 @@ const students = [
     },
     {
         id: 8,
-        name: "Miguel Torres",
+        name: "Joannah Marie Elgario",
         year: 1,
         course: "BEED",
         grades: [81, 79, 85],
@@ -65,7 +65,7 @@ const students = [
     },
     {
         id: 9,
-        name: "Jessica Ramos",
+        name: "Johnjay Arroyo",
         year: 4,
         course: "BSIT",
         grades: [93, 91, 95],
@@ -73,7 +73,7 @@ const students = [
     },
     {
         id: 10,
-        name: "Mark Villanueva",
+        name: "Jisa Erosido",
         year: 2,
         course: "BSAB",
         grades: [76, 80, 78],
@@ -81,7 +81,7 @@ const students = [
     },
     {
         id: 11,
-        name: "Christine Aquino",
+        name: "Kristine Basa",
         year: 3,
         course: "BEED",
         grades: [90, 92, 94],
@@ -89,7 +89,7 @@ const students = [
     },
     {
         id: 12,
-        name: "Robert Navarro",
+        name: "Dave Rezaba",
         year: 1,
         course: "BSIT",
         grades: [79, 83, 81],
@@ -97,7 +97,7 @@ const students = [
     },
     {
         id: 13,
-        name: "Stephanie Bautista",
+        name: "Dave Revira",
         year: 4,
         course: "BSAB",
         grades: [89, 91, 87],
@@ -105,7 +105,7 @@ const students = [
     },
     {
         id: 14,
-        name: "Kevin Castillo",
+        name: "Lena Bahian",
         year: 2,
         course: "BEED",
         grades: [86, 88, 90],
@@ -113,7 +113,7 @@ const students = [
     },
     {
         id: 15,
-        name: "Nicole Fernandez",
+        name: "Jessa Hilardino",
         year: 3,
         course: "BSIT",
         grades: [94, 96, 92],
@@ -121,7 +121,7 @@ const students = [
     },
     {
         id: 16,
-        name: "Joshua Morales",
+        name: "Rechelle Ann Casilangan",
         year: 1,
         course: "BSAB",
         grades: [75, 78, 80],
@@ -129,7 +129,7 @@ const students = [
     },
     {
         id: 17,
-        name: "Rachel Gomez",
+        name: "Sheilla Marie Lañojan",
         year: 4,
         course: "BEED",
         grades: [93, 95, 91],
@@ -137,7 +137,7 @@ const students = [
     },
     {
         id: 18,
-        name: "Andrew Santiago",
+        name: "Jocelyn Semillano",
         year: 2,
         course: "BSIT",
         grades: [87, 85, 89],
@@ -145,7 +145,7 @@ const students = [
     },
     {
         id: 19,
-        name: "Karen Diaz",
+        name: "Inri Daclan",
         year: 3,
         course: "BSAB",
         grades: [82, 84, 86],
@@ -153,7 +153,7 @@ const students = [
     },
     {
         id: 20,
-        name: "Matthew Herrera",
+        name: "Kate Fernandez",
         year: 1,
         course: "BEED",
         grades: [80, 83, 85],
@@ -161,7 +161,7 @@ const students = [
     },
     {
         id: 21,
-        name: "Laura Rivera",
+        name: "Cris John Gatilla",
         year: 4,
         course: "BSIT",
         grades: [96, 94, 98],
@@ -169,7 +169,7 @@ const students = [
     },
     {
         id: 22,
-        name: "Brian Torres",
+        name: "Jeca Dagumboy",
         year: 2,
         course: "BSAB",
         grades: [79, 81, 83],
@@ -177,7 +177,7 @@ const students = [
     },
     {
         id: 23,
-        name: "Michelle Lopez",
+        name: "Krishamin Lagahit",
         year: 3,
         course: "BEED",
         grades: [91, 89, 93],
@@ -185,7 +185,7 @@ const students = [
     },
     {
         id: 24,
-        name: "Ryan Perez",
+        name: "Remark Allon",
         year: 1,
         course: "BSIT",
         grades: [83, 87, 85],
@@ -193,7 +193,7 @@ const students = [
     },
     {
         id: 25,
-        name: "Elizabeth Tan",
+        name: "Roman Maque",
         year: 4,
         course: "BEED",
         grades: [92, 90, 94],
@@ -201,7 +201,7 @@ const students = [
     },
     {
         id: 26,
-        name: "Thomas Lim",
+        name: "Romel Maque",
         year: 2,
         course: "BEED",
         grades: [88, 86, 91],
@@ -209,7 +209,7 @@ const students = [
     },
     {
         id: 27,
-        name: "Amanda Sy",
+        name: "Ronamie Alegria",
         year: 3,
         course: "BSIT",
         grades: [90, 93, 89],
@@ -217,7 +217,7 @@ const students = [
     },
     {
         id: 28,
-        name: "George Tan",
+        name: "Jamilla Siason",
         year: 1,
         course: "BSAB",
         grades: [77, 82, 79],
@@ -225,7 +225,7 @@ const students = [
     },
     {
         id: 29,
-        name: "Hannah Ong",
+        name: "Shannon Gale Dela Cruz",
         year: 4,
         course: "BEED",
         grades: [94, 92, 96],
@@ -233,7 +233,7 @@ const students = [
     },
     {
         id: 30,
-        name: "Samuel Chua",
+        name: "Denmark Sillador",
         year: 2,
         course: "BSIT",
         grades: [85, 88, 87],
