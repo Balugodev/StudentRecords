@@ -534,7 +534,7 @@ function main() {
 
 
     
-    //  TOTAL STUDENTS
+    //  TOTAL STUDENTS//
 
     console.log("\n1. TOTAL STUDENTS");
     console.log("------------------");
@@ -561,7 +561,7 @@ function main() {
         summary.overallAverage.toFixed(2)
     );
 
-    // 3. TOP STUDENTS//
+    // TOP STUDENTS//
 
     console.log("\n3. TOP STUDENTS");
     console.log("----------------");
@@ -578,7 +578,7 @@ function main() {
         }
     );
 
-    // 4. AVERAGE GRADE BY COURSE//
+    // AVERAGE GRADE BY COURSE//
 
     console.log(
         "\n4. AVERAGE GRADE BY COURSE"
@@ -598,7 +598,7 @@ function main() {
         );
     });
 
-    // 5. STUDENTS GROUPED BY COURSE//
+    // STUDENTS GROUPED BY COURSE//
 
     console.log(
         "\n5. STUDENTS GROUPED BY COURSE"
@@ -627,7 +627,7 @@ function main() {
         }
     );
 
-    // 6. ENROLLMENT COUNT//
+    // ENROLLMENT COUNT//
 
     console.log(
         "\n6. ENROLLMENT COUNT"
@@ -650,7 +650,7 @@ function main() {
         enrollment.notEnrolled
     );
 
-    // 7. STUDENT SEARCH//
+    // STUDENT SEARCH//
 
     console.log(
         "\n7. STUDENT SEARCH"
@@ -692,7 +692,7 @@ function main() {
         );
     }
 
-    // 8. COMPLETE SUMMARY//
+    //COMPLETE SUMMARY//
     
     console.log(
         "\n8. COMPLETE SUMMARY"
