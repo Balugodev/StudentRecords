@@ -97,7 +97,7 @@ const students = [
     },
     {
         id: 13,
-        name: "Dave Revira",
+        name: "Dave Rivera",
         year: 4,
         course: "BSAB",
         grades: [89, 91, 87],
@@ -536,7 +536,7 @@ function main() {
     
     //  TOTAL STUDENTS//
 
-    console.log("\n1. TOTAL STUDENTS");
+    console.log("TOTAL STUDENTS");
     console.log("------------------");
 
     console.log(
@@ -547,7 +547,7 @@ function main() {
 //  OVERALL AVERAGE GRADE//
     
     console.log(
-        "\n2. OVERALL AVERAGE GRADE"
+        "OVERALL AVERAGE GRADE"
     );
 
     console.log(
@@ -563,7 +563,7 @@ function main() {
 
     // TOP STUDENTS//
 
-    console.log("\n3. TOP STUDENTS");
+    console.log("TOP STUDENTS");
     console.log("----------------");
 
     const topStudents =
@@ -581,7 +581,7 @@ function main() {
     // AVERAGE GRADE BY COURSE//
 
     console.log(
-        "\n4. AVERAGE GRADE BY COURSE"
+        "AVERAGE GRADE BY COURSE"
     );
 
     console.log(
@@ -601,7 +601,7 @@ function main() {
     // STUDENTS GROUPED BY COURSE//
 
     console.log(
-        "\n5. STUDENTS GROUPED BY COURSE"
+        "STUDENTS GROUPED BY COURSE"
     );
 
     console.log(
@@ -630,7 +630,7 @@ function main() {
     // ENROLLMENT COUNT//
 
     console.log(
-        "\n6. ENROLLMENT COUNT"
+        "ENROLLMENT COUNT"
     );
 
     console.log(
@@ -653,7 +653,7 @@ function main() {
     // STUDENT SEARCH//
 
     console.log(
-        "\n7. STUDENT SEARCH"
+        "STUDENT SEARCH"
     );
 
     console.log(
@@ -663,7 +663,7 @@ function main() {
     const foundStudent =
         findStudent(
             students,
-            "maria santos"
+            "Reniel Demafelis"
         );
 
     if (foundStudent) {
@@ -695,7 +695,7 @@ function main() {
     //COMPLETE SUMMARY//
     
     console.log(
-        "\n8. COMPLETE SUMMARY"
+        "COMPLETE SUMMARY"
     );
 
     console.log(
